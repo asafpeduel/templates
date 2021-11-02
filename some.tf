@@ -1,2 +1,1 @@
-variable "availability_zone_names" {
-}
+variable "availability_zone_names" {}
