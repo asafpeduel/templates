@@ -1,4 +1,4 @@
-variable availability_zone_names {
+variable == {
   default= "33"
   type = string
   description = 5
