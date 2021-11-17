@@ -1,4 +1,4 @@
-variable "availability_zone_names" {
+variable "availability_zone_names" { {
   default= 1
   type = string
   description = "variable description"
