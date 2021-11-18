@@ -1,12 +1,6 @@
-variable "availability_zone_names" {
-  default= 1
+variable "availability_zone_name" {
   type = string
+  default = "us-west-1a"
   description = "variable description"
-  sensitive = true
-}
-
-variable "availability_zone_names1" {
-  type = string
-  description = "variable description"
-  sensitive = true
+  sensitive = false
 }
