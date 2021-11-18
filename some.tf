@@ -7,7 +7,6 @@ variable "availability_zone_names" {
 
 variable "availability_zone_names1" {
   type = string
-  defualt
   description = "variable description"
   sensitive = true
 }
