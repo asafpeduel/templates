@@ -2,5 +2,5 @@ variable "availability_zone_name" {
   type = string
   default = "us-west-1a"
   description = "variable description"
-  sensitive = false
+  sensitive = true
 }
