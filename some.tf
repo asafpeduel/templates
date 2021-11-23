@@ -6,7 +6,7 @@ variable "availability_zone_name" {
 }
 variable "availability_zone_name" {
   type = string
-  default = "us-west-12"
+  default = 123
   description = "variable description"
   sensitive = true
 }
