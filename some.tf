@@ -4,7 +4,7 @@ variable "availability_zone_name" {
   description = "variable description"
   sensitive = true
 }
-variable "availability_zone_name" {
+variable "availability_zone_namee" {
   type = string
   default = 123
   description = "variable description"
