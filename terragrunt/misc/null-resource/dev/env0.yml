@@ -3,5 +3,5 @@ version: 1
 deploy:
   steps:
     terraformInit:
-      before:
-        - echo running dev
+      after:
+        - sleep ${SLEEP_IN_SECONDS:-60}
